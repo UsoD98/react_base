@@ -1,7 +1,3 @@
 export default function Layout() {
-  return (
-    <>
-      NotFound
-    </>
-  );
+  return <>NotFound</>;
 }

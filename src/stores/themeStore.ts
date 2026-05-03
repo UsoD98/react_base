@@ -1,6 +1,13 @@
 import { create } from 'zustand';
 
-export const themes = ['light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate'];
+export const themes = [
+  'light',
+  'dark',
+  'cupcake',
+  'bumblebee',
+  'emerald',
+  'corporate',
+];
 
 interface ThemeState {
   theme: string;

@@ -19,7 +19,11 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <Suspense fallback={LoadingComponent}><Index /></Suspense>,
+            element: (
+              <Suspense fallback={LoadingComponent}>
+                <Index />
+              </Suspense>
+            ),
           },
         ],
       },
